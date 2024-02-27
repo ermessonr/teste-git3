@@ -1,0 +1,69 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+
+}
+
+.conteudo{
+    max-width: 600px;
+}
+.apresentar{
+    padding-bottom: 0.5vh;
+    font-size: 2vh;
+}
+
+.nome{
+    padding-bottom: 2vh;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh
+    
+}
+
+.habilidades > img:hover{
+    height: 60px;
+    width: 60px;
+}
+
+.profile{
+    background-color: rgba(214, 213, 214, 0.2);
+    border-radius: 4px;
+    margin-right: 2vh;
+}
+
+.profile-img{
+    width: 150px;
+    border-radius: 50%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-top: 2vh;
+}
+
+.especificacoes{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.especificacoes h2, p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.especificacoes h2{
+    font-size: 2vh;
+    color: rgba(26, 22, 234, 0.5);
+}
+
+.especificacoes p{
+    font-size: 1.5vh;
+}
